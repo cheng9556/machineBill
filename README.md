@@ -1,13 +1,13 @@
 
-Install And Demo
+#Install And Demo
 
-#mysql
->create database machinBill;
->grant all privileges on machinBill.* to machinBill@localhost identified by 'machinBill123';
->flush privileges;
->exit;
+bash#mysql
+mysql>create database machineBill;
+mysql>grant all privileges on machineBill.* to machineBill@localhost identified by 'machineBill123';
+mysql>flush privileges;
+mysql>exit;
 
-#mysql machinBill < sql/demo_with_data.sql
+bash#mysql machineBill < sql/demo_with_data.sql
 
-Watch the demo
+#Watch the demo
  --> http://bill.bbkanba.com

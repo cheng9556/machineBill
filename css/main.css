@@ -1,0 +1,56 @@
+#header h1{
+    color: #666666;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2px;
+    font-size: 18px;
+}
+#header h2{
+   color: #666666;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   font-size: 11px;
+  }
+#header h1 span,#header h2 span{
+  margin: 0 5px 0;
+  color: #EDC240;
+ }
+.toolbar {
+  text-align: center;
+  vertical-align: middle;
+}
+.selectone{
+  text-align: center;
+  color: #666666;
+  vertical-align: middle;
+}
+form{
+  color: #666666;
+  background-color: #FFFFFF;
+  position:relative;
+}
+.submit{
+  text-align: center;
+}
+.note{
+ width:  270px;
+ margin: 0;
+ padding: 0;
+ padding:3px 5px;
+ text-align:center;
+ font-size:12px; 
+ border:1px solid #CC9933;
+ background:#FFFFCC;
+ }
+#statusbar{
+  height:20px;
+  background-color:#EFEFEF;
+}
+#choices{
+  width: 160px;
+  position: absolute;
+  top: 70px;
+  left: 800px;
+  padding: 2px;
+}
