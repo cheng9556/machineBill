@@ -47,7 +47,7 @@ DEFAULT CHARACTER SET = utf8;
 
 
 LOCK TABLES `users` WRITE;
-INSERT INTO `machineBill`.`users` (`userName`, `userPassword`, `nickname`) VALUES ('leo', '1qazxsw2', '刘磊');
+INSERT INTO `machineBill`.`users` (`userName`, `userPassword`, `nickname`) VALUES ('leo', 'leo', '刘磊');
 UNLOCK TABLES;
 
 
